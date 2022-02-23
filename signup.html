@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="signupstyle.css">
+    </head>
+    <body>
+        <div class="signupdiv">
+            <!-- Add logo here -->
+        <a href="index.html"><img src="img/logo.png" id="llogo"></a>
+        <h1>¡Bienvenid@ a MightTravel!</h1>
+        <br class="separator">
+        <form class="signupform">
+            <label for="femail" class="lsignup"><b>Email</b></label>
+            <input type="email" id="femail" class="fsignup" required>
+            <br class="separator">
+            <label for="fpassword" class="lsignup"><b>Password</b></label> 
+            <input type="password" id="fpassword" class="fsignup" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            <label id="lpasswordrules">*La contraseña debe contener minúsculas, mayúsculas, números y debe tener al menos 8 caracteres.</label>
+            <button type="submit">Registro</button>
+        </form>
+        <br>
+        ¿Ya tiene cuenta? <a href="login.html">Inicie sesión</a>.
+        </div>
+    </body>
+</html>
