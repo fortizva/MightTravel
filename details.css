@@ -14,18 +14,22 @@
 
 .infodiv {
     box-sizing: border-box;
-    display:inline-block;
-    padding: 35px 50px;
+    display:table-cell;
     width: calc(60% - 1em);
     margin-right: .5em;
     vertical-align: top;
 }
 
 .pricediv {
-    box-sizing: border-box;
-    display:inline-block;
-    padding: 35px 50px;
+    display: table-cell;
     width: 40%;
+}
+
+.pricediv > div{
+    box-sizing: border-box;
+    display: inline-block;
+    width: calc(100% - 1em);
+    margin-left: 1em;
     vertical-align: top;
 }
 
