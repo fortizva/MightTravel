@@ -28,6 +28,7 @@
 }
 
 .housecell > a > img {
+    object-fit: cover;
     position: relative;
     max-height: 80%;
     max-width: 100%;

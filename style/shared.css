@@ -8,6 +8,10 @@
     border-radius: 50px;
 }
 
+form > button[type="submit"] {
+    cursor: pointer;
+}
+
 .submitbutton:hover {
     background-color: #ffc86f;
 }
@@ -94,4 +98,9 @@ button {
 .bannersearchbutton {
     margin: auto 1em;
     width: 5em;
+    cursor: pointer;
+}
+
+.nounderline {
+    text-decoration: none;
 }

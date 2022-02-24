@@ -1,0 +1,53 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.houselist {
+    padding: 1.5em;
+    padding-bottom: 5em;
+    left:0;
+    background-color: white;
+    overflow: scroll;
+}
+
+.houselistmapdiv {
+    right: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.houselistmap {
+    width: 100%;
+    height: 90%;
+    border: 0;
+    margin: 0;
+}
+
+.houselistentry {
+    box-sizing: border-box;
+    width: 100%;
+    height: 10em;
+    padding: 1em;
+}
+
+.houselistentry > img {
+    object-fit: cover;
+    height: 100%;
+    max-width: 30%;
+    border-radius: 10px;
+}
+
+.houselistentry > div {
+    padding: 1em;
+    margin-left: 0.5em;
+    display: inline-block;
+    vertical-align: top;
+}
