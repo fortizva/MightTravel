@@ -1,0 +1,48 @@
+.categorycontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.categorycontainer > a {
+    margin: auto 1em;
+    color: #14213d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.housecelllist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.housecell {
+    display:inline-block;
+    width: 20em;
+    height: 18em;
+    position:relative;
+    padding: 1em !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+.housecell > img {
+    position: relative;
+    max-height: 80%;
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.housecellinfo {
+    margin-top: 1em;
+    width:100%; 
+    height:auto;
+    text-align: left;
+}
+
+.housecellinfo > a {
+    text-decoration: none;
+    color: #14213d;
+}

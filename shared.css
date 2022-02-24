@@ -63,8 +63,8 @@ a {
 }
 
 .banneraccount {
-    position: absolute;
     display: inline-block;
+    position: absolute;
     left: 100%;
     top: 0%;
     transform: translate(-150%, 50%);
