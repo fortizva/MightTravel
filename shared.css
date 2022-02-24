@@ -1,0 +1,78 @@
+.submitbutton {
+    background-color: #fca311;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.submitbutton:hover {
+    background-color: #ffc86f;
+}
+
+body {
+    background-color: #fca311;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #14213d;
+}
+
+.backgrounddiv {
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    padding: 35px;
+}
+
+.maindiv {
+    margin: 10% 1% 1% 1%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #14213d;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 10%;
+    padding: 0.2%;
+    z-index: 999; 
+}
+
+.bannerlogo {
+    height: 90%;
+    padding-left: 2%;
+    vertical-align: top;
+}
+
+.bannertitle {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin: auto 2%;
+    transform: translate(0, -50%);
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banneraccount {
+    position: absolute;
+    display: inline-block;
+    left: 100%;
+    top: 0%;
+    transform: translate(-150%, 50%);
+    width: 5%;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+button {
+    font-family: inherit;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MightTravel</title> <!-- El título cambiará según la casa seleccionada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="shared.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="details.html"><img src="img/logoWhite.png" class="bannerlogo"></a>
+        <a href="details.html" class="bannertitle">MightTravel</a>
+        <button class="submitbutton banneraccount" onclick="document.location.href='login.html';">Login</button>
+    </div>
+    <div class="maindiv">
+        <section class="basicinfocontainer backgrounddiv">
+            <h1>Sunflower House</h1>
+            <h5>Categoria</h5>
+            <center>
+                <img id="imagedetails" src="img/sunflowerhouse.jpg"> <!-- Imagen de la casa (Puede que una galería de imágenes) -->
+            </center>
+        </section>
+        <section class="detailscontainer">
+            <div class="infodiv backgrounddiv">
+                <h3>Descripción:</h3>
+                Alguna Descripción elaborada...
+                <hr>
+                <h3>Servicios:</h3>
+                <table frame=void rules=rows>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Disponible</th>
+                    </tr>
+                    <tr>
+                        <td>Cocina</td>
+                        <td>Sí</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi</td>
+                        <td>No</td>
+                    </tr>
+                </table>
+                <hr>
+                <h3>Contacto:</h3>
+                <b>Teléfono:</b> 685348667
+                <br>
+                <b>Correo:</b> sunflower@house.com
+
+            </div>
+            <div class="pricediv backgrounddiv">
+                <h2>45€/noche</h2>
+                <h4>4.91 - 137 valoraciones</h4>
+                <!-- Añadir estrella/corazón -->
+                <hr>
+                <h3>Reserva:</h3>
+                <form>
+                    <label for="fllegada">Llegada:</label>
+                    <input type="date" id="fllegada" class="freserva" required>
+                    <label for="fsalida">Salida:</label>
+                    <input type="date" id="fsalida" class="freserva" required>
+                    <label for="fhuesped">Huéspedes:</label>
+                    <input type="number" id="fhuesped" class="freserva" step=1 min=1 value=1 required>
+                    <button type="submit" id="reservabutton" class="submitbutton">Reserva</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

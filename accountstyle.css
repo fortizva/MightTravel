@@ -1,24 +1,22 @@
-.logindiv {
+.accountdiv {
     width:30%;
     position:absolute;
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    border-radius: 30px;
     padding: 4% 3% 6% 3%;
     box-shadow: 0 0 20px -10px;
-    background-color: #e5e5e5;
 }
 
-input[type=email], input[type=password] {
+.faccount {
     width:95%;
     display:inline-block;
     margin: 10px 0 10px 0;
     line-height: 150%;
 }
 
-.loginform {
+.accountform {
     width: 40%;
     display:inline-block;
     text-align: left;
@@ -31,35 +29,24 @@ input[type=email], input[type=password] {
     line-height: 22px;
 }
 
-#llogo {
-    width: 40%;
-}
-
-body {
-    background-color: #14213d;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
 
 h1 {
     font-size: 2em;
 }
 
-button {
-    background-color: #fca311;
-    display: block;
-    position:relative;
-    left: 50%;
-    transform: translate(-50%,0);
-    border: none;
-    color: white;
-    margin-top: 5%;
-    padding: 10px 50%;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50px;
+.accountlogo {
+    width: 40%;
 }
 
-a {
-    color: #14213d;
+.accountbutton {
+    display:block;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+}
+
+body {
+    background-color: #14213d !important;
 }
