@@ -27,7 +27,7 @@
     overflow: hidden;
 }
 
-.housecell > img {
+.housecell > a > img {
     position: relative;
     max-height: 80%;
     max-width: 100%;
