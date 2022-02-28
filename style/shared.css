@@ -69,8 +69,6 @@ a {
     vertical-align: middle;
     margin: auto 1em;
     position: relative;
-    top: 50%;
-    transform: translate( 0,-50%);
     width: 5em;
 	cursor: pointer;
 }
@@ -104,4 +102,13 @@ button {
 
 .nounderline {
     text-decoration: none;
+}
+
+.rowtable {
+    border-collapse: collapse;
+    border: none;
+}
+
+.rowtable td {
+    border-top: 1px solid black;
 }
