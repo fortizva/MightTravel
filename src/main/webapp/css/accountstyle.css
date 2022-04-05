@@ -1,0 +1,56 @@
+.accountdiv {
+    width:30%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 4% 3% 6% 3%;
+    box-shadow: 0 0 20px -10px;
+}
+
+.faccount {
+    width:95%;
+    display:inline-block;
+    margin: 10px 0 10px 0;
+    line-height: 150%;
+}
+
+#lpasswordrules {
+	font-size: 0.8em;
+}
+
+.accountform {
+    width: 40%;
+    display:inline-block;
+    text-align: left;
+    padding: 2% 4%;
+    margin-bottom: 5%;
+}
+
+.separator {
+    display: block;
+    line-height: 22px;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+
+.accountlogo {
+    width: 40%;
+}
+
+.accountbutton {
+    display:block;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+}
+
+body {
+    background-color: #14213d !important;
+}

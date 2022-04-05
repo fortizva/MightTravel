@@ -1,0 +1,86 @@
+.userpanelcontainer {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.panelEditForm {
+	margin-left: 5em;
+	display: block;
+	line-height: 3em;
+}
+
+.faccount {
+	width: 95%;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	line-height: 150%;
+}
+
+#lpasswordrules {
+	display: block;
+	font-size: 0.8em;
+}
+
+.separator {
+	display: block;
+	line-height: 22px;
+}
+
+.accountbutton {
+	display: block;
+	position: relative;
+	margin-top: 5%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+}
+
+.housecelllist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.housecell {
+	display: inline-block;
+	width: 20em;
+	height: 18em;
+	position: relative;
+	padding: 1em !important;
+	text-align: center;
+	overflow: hidden;
+}
+
+.housecell>a>img {
+	object-fit: cover;
+	position: relative;
+	max-height: 80%;
+	max-width: 100%;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.housecellinfo {
+	margin-top: 1em;
+	width: 100%;
+	height: auto;
+	text-align: left;
+}
+
+.housecellinfoedit {
+	display: flex;
+}
+
+.houseinfoedit {
+	width:inherit;
+	text-align: right;
+}
+
+.houseinfotitle {
+	width:100%;
+}
+.housecellinfo>a {
+	text-decoration: none;
+	color: #14213d;
+}

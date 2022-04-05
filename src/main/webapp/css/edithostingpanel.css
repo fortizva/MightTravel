@@ -1,0 +1,24 @@
+.panelEditForm {
+	margin-left: 5em;
+    display: block;
+    line-height: 3em;
+}
+
+.panelEditForm > label, .panelEditForm > input {
+	display:block;
+	line-height:2em;
+}
+
+.fullwidthbutton {
+    display: block;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.separator {
+    display: block;
+    line-height: 22px;
+}
